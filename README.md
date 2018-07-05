@@ -18,3 +18,4 @@ to train the net run the shell command ./train for the serial version, ./cilk fo
 
 outputs from each program is saved in binary files titled serial.bin, cilk.bin and openmp.bin respectively. To test the net, run ./train name_of_binary_file.bin
 
+The file tran_nn.c contains the actual implementation of the neural network and is worth checking out!
